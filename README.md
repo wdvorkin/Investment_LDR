@@ -10,7 +10,7 @@ Please, refer to Apendix.pdf for supplementary materials.
 
 The optimization models were implemented in Julia language (v.1.6) using JuMP modeling language for mathematical optimization embedded in Julia. The models require Mosek comercial optimization solver, which needs to be installed and licensed.
 
-To activate the packages in Project.toml, clone the project, e.g., using git clone, then cd to the project directory and call
+To activate the packages in ```Project.toml```, clone the project, e.g., using ```git clone```, and ```cd``` to the project directory and call
 ```
 $ julia 
 julia> ]
