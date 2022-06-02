@@ -4,10 +4,6 @@ This repository contains supplementary materials, optimization data, and codes f
 
 
 
-<div style="float: right">
-    ![Southeast_US](https://user-images.githubusercontent.com/31773955/171643734-7e37acd8-ecb9-49c9-a36c-73c58e0fbc30.png)
-</div>
-
-asdas a d f
+ ![Southeast_US](https://user-images.githubusercontent.com/31773955/171643734-7e37acd8-ecb9-49c9-a36c-73c58e0fbc30.png)
 
 
