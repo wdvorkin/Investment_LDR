@@ -8,7 +8,7 @@ The optimization dataset is an ensemble of M.Sc. [thesis](https://dspace.mit.edu
 
 Please, refer to [Apendix.pdf](https://github.com/wdvorkin/Investment_LDR/blob/main/Appendix.pdf) for supplementary materials. 
 
-The optimization models were implemented in Julia language (v.1.6) using JuMP modeling language for mathematical optimization embedded in Julia. The models require Mosek comercial optimization solver, which needs to be installed and licensed.
+The optimization models were implemented in Julia language (v.1.6) using [JuMP](https://github.com/jump-dev/JuMP.jl) modeling language for mathematical optimization [Mosek](https://github.com/MOSEK/Mosek.jl) comercial optimization solver, both embedded in Julia. The solver needs and licensed.
 
 To activate the packages in ```Project.toml```, clone the project using e.g. ```git clone```, ```cd``` to the project directory and call
 ```
