@@ -101,7 +101,7 @@ data = load_data(caseID,set)
 sol_det_prim = determenistic_expansion_prim(set,data,ξ)
 sol_sto_prim = stochastic_expansion_prim(data,set,ξ)
 
-# # uncomment solve dual models
+# # uncomment to solve dual models
 # sol_det_dual = determenistic_expansion_dual(set,data,ξ)
 # sol_sto_dual = stochastic_expansion_dual(data,set,ξ)
 
