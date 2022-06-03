@@ -8,7 +8,7 @@ The optimization dataset is an ensemble of M.Sc. [thesis](https://dspace.mit.edu
 
 Please, refer to [Apendix.pdf](https://github.com/wdvorkin/Investment_LDR/files/8832872/appendix.pdf) for supplementary materials. 
 
-The optimization models were implemented in Julia language (v.1.6) using [JuMP](https://github.com/jump-dev/JuMP.jl) modeling language for mathematical optimization and comercial [Mosek](https://github.com/MOSEK/Mosek.jl) optimization solver, both embedded in Julia. The solver needs to be licensed (free for academic use).
+The optimization models were implemented in Julia language (v.1.6) using [JuMP](https://github.com/jump-dev/JuMP.jl) modeling language for mathematical optimization and commercial [Mosek](https://github.com/MOSEK/Mosek.jl) optimization solver, both embedded in Julia. The solver needs to be licensed (free for academic use).
 
 To activate and run the project, clone this repository, e.g., using ```git clone```, then ```cd``` to the project directory and call
 ```
@@ -23,7 +23,7 @@ where ```julia``` is an alias to Julia installation. To run the code, ```cd``` t
 $ julia main.jl
 ```
 
-By default, the code returns the solution of the multi-stage investment planning with chance constraints reformulation under the Normal distribution assumption. The results will be stored to output folder in the project folder. To solve the planning problem in a distributionally robust manner, set option ```--ref``` to ```DRO-DS```, where ```DS``` syends for double-sided constraint reformulation, i.e., 
+By default, the code returns the solution of the multi-stage investment planning with chance constraints reformulation under the Normal distribution assumption. The results will be stored in the ```output``` folder in the project root. To solve the planning problem in a distributionally robust manner, set option ```--ref``` to ```DRO-DS```, where ```DS``` stands for double-sided chance constraint reformulation, i.e., 
 ```
 $ julia main.jl -r "DRO-DS"
 ```
@@ -31,13 +31,4 @@ To see all available options, type
 ```
 $ julia main.jl --help
 ```
-
-
-<!-- 
-```"CC_OPF"``` mechanism and stores the results in ```~/output/CC_OPF```. To run the other mechanisms, parse ```"D_OPF"```, ```"ToV_CC_OPF"```, ```"TaV_CC_OPF"``` or ```"CVaR_CC_OPF"``` using option ```-m```, e.g. 
-```
-$ julia DP_CC_OPF.jl -m "CVaR_CC_OPF"
-```
-The results will be stored in ```~/output/CVaR_CC_OPF```.  -->
-
 
