@@ -105,5 +105,5 @@ sol_sto_prim = stochastic_expansion_prim(data,set,ξ)
 # sol_det_dual = determenistic_expansion_dual(set,data,ξ)
 # sol_sto_dual = stochastic_expansion_dual(data,set,ξ)
 
-# run out-of-sample analysis and estiamate constraint violation
+# run out-of-sample analysis and estimate constraint violation
 post_processing(outdir,data,set,ξ)
