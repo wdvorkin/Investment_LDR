@@ -23,7 +23,7 @@ where ```julia``` is an alias to Julia installation. To run the code, ```cd``` t
 $ julia main.jl
 ```
 
-By default, the code returns the solution of the multi-stage investment planning with chance constraints reformulation under the Normal distribution assumption. The results will be stored in the ```output``` folder in the project root. To solve the planning problem in a distributionally robust manner, set option ```--ref``` to ```DRO-DS```, where ```DS``` stands for double-sided chance constraint reformulation, i.e., 
+By default, the code returns the solution of the multi-stage investment planning with chance constraints reformulation under the Normal distribution assumption. The results will be stored in the ```output``` folder in the project root. To solve the planning problem in a distributionally robust manner, set option ```-r``` to ```DRO-DS```, where ```DS``` stands for double-sided chance constraint reformulation, i.e., 
 ```
 $ julia main.jl -r "DRO-DS"
 ```
