@@ -8,9 +8,9 @@ The optimization dataset is an ensemble of M.Sc. [thesis](https://dspace.mit.edu
 
 Please, refer to [Apendix.pdf](https://github.com/wdvorkin/Investment_LDR/files/8832872/appendix.pdf) for supplementary materials. 
 
-The optimization models were implemented in Julia language (v.1.6) using [JuMP](https://github.com/jump-dev/JuMP.jl) modeling language for mathematical optimization [Mosek](https://github.com/MOSEK/Mosek.jl) comercial optimization solver, both embedded in Julia. The solver needs to be licensed.
+The optimization models were implemented in Julia language (v.1.6) using [JuMP](https://github.com/jump-dev/JuMP.jl) modeling language for mathematical optimization and comercial [Mosek](https://github.com/MOSEK/Mosek.jl) optimization solver, both embedded in Julia. The solver needs to be licensed (free for academic use).
 
-To activate the packages in ```Project.toml```, clone the project using e.g. ```git clone```, ```cd``` to the project directory and call
+To activate and run the project, clone this repository, e.g., using ```git clone```, then ```cd``` to the project directory and call
 ```
 $ julia 
 julia> ]
