@@ -1,6 +1,6 @@
 # Multi-Stage Investment Decision Rules for Power Systems with Performance Guarantees
 
-This repository contains supplementary materials, optimization data, and codes for [Multi-Stage Investment Decision Rules for Power Systems with Performance Guarantees](https://arxiv.org/pdf/2206.01675.pdf){:target="_blank"} by [Vladimir Dvorkin](http://wdvorkin.github.io), [Dharik Mallapragada](https://mallapragada.mit.edu), and [Audun Botterud](https://botterud.mit.edu).
+This repository contains supplementary materials, optimization data, and codes for [Multi-Stage Investment Decision Rules for Power Systems with Performance Guarantees](https://arxiv.org/pdf/2206.01675.pdf) by [Vladimir Dvorkin](http://wdvorkin.github.io), [Dharik Mallapragada](https://mallapragada.mit.edu), and [Audun Botterud](https://botterud.mit.edu).
 
 <img width="1082" alt="Screen Shot 2022-06-02 at 9 53 04 AM" src="https://user-images.githubusercontent.com/31773955/171645236-63fd26b1-8419-4273-a55b-e8f957e14f7f.png">
 
