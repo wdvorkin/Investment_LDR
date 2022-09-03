@@ -1,4 +1,4 @@
-# Multi-Stage Investment Decision Rules for Power Systems with Performance Guarantees
+# InvestmentLDR: Investment Linear Decision Rules for Power Systems 
 
 This repository contains supplementary materials, optimization data, and codes for [Multi-Stage Investment Decision Rules for Power Systems with Performance Guarantees](https://arxiv.org/pdf/2206.01675.pdf) by [Vladimir Dvorkin](http://wdvorkin.github.io), [Dharik Mallapragada](https://mallapragada.mit.edu), and [Audun Botterud](https://botterud.mit.edu).
 
